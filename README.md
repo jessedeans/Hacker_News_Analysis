@@ -10,3 +10,6 @@ In this notebook I'll compare these two types of posts to determine the followin
 - Do posts created at a certain time receive more comments on average?
 
 This notebook is based on a guided project from [Dataquest.io](https://www.dataquest.io/), an online platform to learn Data Analysis and Data Science. The learning goal of the project was to review working with strings, dates and times, and object-oriented programming.
+
+## Data
+You can find the original data set [here](https://www.kaggle.com/hacker-news/hacker-news-posts). The data I will be working with has been reduced from almost 300,000 rows to approximately 20,000 rows by removing all submissions that did not receive any comments, and then randomly sampling from the remaining submissions. It can be found in this repository. Below, I'll open the data, store it as a list of lists, and print the first few lists.
